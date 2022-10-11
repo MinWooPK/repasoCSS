@@ -1,0 +1,19 @@
+section {
+    width: 1000px;
+    height: 500px;
+    margin: 3rem auto;
+    background-color: navy;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: column;
+
+}
+
+div {
+
+    width: 200px;
+    height: 80px;
+    margin: 50px;
+    background-color: brown;
+}

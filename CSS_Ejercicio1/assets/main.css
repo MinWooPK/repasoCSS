@@ -1,0 +1,45 @@
+#nav {
+
+    background-color: pink;
+    width: 1000px;
+    justify-content: center;
+    
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 60px;
+
+}
+
+.article {
+
+    margin-top: 50px;
+
+
+}
+
+body {
+    width: 1280px;
+    height: 1280px;
+    background-color: greenyellow;
+}
+
+
+.boton {
+
+
+
+
+    position: fixed;
+    top: 500px;
+    left: 1200px;
+    
+}
