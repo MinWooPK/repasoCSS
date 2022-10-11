@@ -1,37 +1,13 @@
-/*terminar*/
-#boton5 {
-
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 2000px;
-
-}
-
-
-
-.boton {
-    background-color: pink;
-    position: absolute;
-    padding:  40px;
-
-}
-
-#boton5:hover {
-    width: 400px;
-    transition-timing-function: linear;
-    transition: width 6s;
-
-}
-
-
 .recorte {
-    background-color: blue;
-    width: 200px;
-    left: 1500px;
-    top: 2000px;
-    position: sticky;
-}
 
+background-color: blue;
+position: absolute;
+left: 2000px;
+
+
+}
+.boton:hover~.recorte {
+    left:0px;
+    transition: 4s;
+}
 

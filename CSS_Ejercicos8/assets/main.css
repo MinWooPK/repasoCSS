@@ -1,0 +1,27 @@
+.header {
+
+    display: grid;
+}
+
+.navigation {
+    display: grid;
+}
+
+.main {
+    display: grid
+}
+
+.sidebar {
+    display: grid
+}
+
+.ads {
+    display: grid
+}
+
+
+
+
+.footer {
+    display: grid
+}

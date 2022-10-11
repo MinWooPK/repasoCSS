@@ -1,9 +1,7 @@
 #nav {
 
     background-color: pink;
-    width: 1000px;
     justify-content: center;
-    
     position: sticky;
     top: 0;
 }
@@ -12,9 +10,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    justify-content: space-around;
     height: 60px;
 
 }
@@ -27,8 +23,7 @@
 }
 
 body {
-    width: 1280px;
-    height: 1280px;
+   height: 2000px;
     background-color: greenyellow;
 }
 
@@ -43,3 +38,5 @@ body {
     left: 1200px;
     
 }
+function scrollWin() {
+    window.scrollTo(0, 500);
