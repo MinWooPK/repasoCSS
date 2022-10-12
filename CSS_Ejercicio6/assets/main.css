@@ -1,0 +1,36 @@
+section {
+    width: 1000px;
+    height: fit-content;
+    margin: 3rem auto;
+    padding: 1rem 0;
+    background-color: navy;
+
+
+    height: 90px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    left: 20%;
+    right: 20%;
+
+}
+
+
+
+
+div {
+    background-color: brown;
+
+
+
+
+    display: flex;
+    align-items: center;
+   
+    width: 25%;
+    height: 70%;
+}
+
+

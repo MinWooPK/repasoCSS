@@ -1,0 +1,35 @@
+section {
+    width: 1000px;
+    height: 500px;
+    margin: 3rem auto;
+    background-color: navy;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+div {
+
+    width: 200px;
+    height: 100px;
+    background-color: brown;
+margin-left: 50px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+
+.D3 , .D1 , .D2 {
+   /* background-color: yellow;*/
+    float: left;
+}
+
+
+.D4 , .D5, .D6 {
+    position: relative;
+   /* background-color: orange;*/
+    float: right;
+    left: 200px;
+}
+
+/*separar  */

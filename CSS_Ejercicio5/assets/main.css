@@ -1,0 +1,55 @@
+/*   Ejercicio 1
+.recorte {
+
+background-color: blue;
+position: absolute;
+left: 2000px;
+
+
+}
+.boton:hover~.recorte {
+    left:0px;
+    transition: 4s;
+}
+*/
+
+
+/*
+Ejercicio 2
+
+
+.recorte { opacity : 0; transition:opacity 3s; }
+
+.boton:hover~.recorte {
+opacity: 2;
+
+}
+
+*/
+
+.recorte {
+
+    width: 200px;
+    height: 500px;
+    background-color: brown;
+    animation: 6s ;
+    position: relative;
+    animation-fill-mode: forwards;
+
+
+
+}
+
+.boton:hover~.recorte {
+    animation-name: boton;
+    animation-timing-function: lineal;
+  }
+
+@keyframes boton{
+ 
+    
+    0%   { transform: translatex(0);  }
+    /*50%   {transform:  translateX(200px);background-color: pink;}*/
+    99%  { transform: translateX(399px); background-color: brown;}
+    100% { transform: translatex(400px); background-color:blue }
+  }

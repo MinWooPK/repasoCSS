@@ -1,0 +1,42 @@
+#nav {
+
+    background-color: pink;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+
+}
+
+.article {
+
+    margin-top: 50px;
+
+
+}
+
+body {
+   height: 2000px;
+    background-color: greenyellow;
+}
+
+
+.boton {
+
+
+
+
+    position: fixed;
+    top: 500px;
+    left: 1200px;
+    
+}
+function scrollWin() {
+    window.scrollTo(0, 500);
