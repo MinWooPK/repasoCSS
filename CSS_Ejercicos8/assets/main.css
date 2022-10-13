@@ -1,27 +1,47 @@
-.header {
 
+
+#All {
     display: grid;
+    width: 200px;
+    height: 200px;
+    grid-template-areas:
+        " header header"
+        " navigation navigation   "
+        "main main main "
+        " sidebar sidebar "
+        "ads ads "
+        "footer footer  "
+;
+
+
 }
 
-.navigation {
-    display: grid;
+#All> header {
+    background-color: yellow;
+    grid-area: header;
 }
 
-.main {
-    display: grid
+#All> .navigation {
+    background-color: blue;
+    grid-area: navigation;
 }
 
-.sidebar {
-    display: grid
+#All> main {
+    background-color: green;
+    grid-area: main;
 }
 
-.ads {
-    display: grid
+#All> .sidebar {
+    background-color: red;
+    grid-area: sidebar;
 }
 
+#All> .ads {
+    background-color: pink;
+    grid-area: ads;
+}
 
-
-
-.footer {
-    display: grid
+#All> footer {
+    background-color: orange;
+    grid-area: footer;
 }
